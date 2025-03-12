@@ -1,0 +1,16 @@
+[project]
+name = "duplocloud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "flask>=3.1.0",
+    "flask-rest-api>=0.17.1",
+    "flask-session>=0.8.0",
+    "flask-socketio>=5.5.1",
+    "openai>=1.66.3",
+    "orjson>=3.10.15",
+    "python-dotenv>=1.0.1",
+    "smolagents>=1.10.0",
+]

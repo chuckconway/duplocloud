@@ -34,10 +34,28 @@ uv sync
 ```bash
 uv start
 ```
-## Add information about running client.
+## Add installing packages and information about running client.
+how od I integrate the client startup when starting Python server?
 
 ## Architecture
 Talk about DDD and the architecture of the project.
 
 https://flask-rest-api.readthedocs.io/en/stable/quickstart.html
 
+## Agentic Agent Framework
+smolagents
+
+## Logging/Telemetry
+- Nice to have, add a diagnostic view to see the raw output.
+
+## Docker Instructions
+
+## User Authentication
+
+## Application Test assumptions
+Using Cursor AI, Claude Code, Windsurf, etc. is not allowed, but using Codeium or Copilot is allowed.
+
+## TODO
+- Implement features
+- Add Tests
+- Add Documentation
