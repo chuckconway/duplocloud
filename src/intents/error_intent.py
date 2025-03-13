@@ -13,11 +13,7 @@ class ErrorAction(ActionBase):
         self.session = session
 
     def execute(self):
-        message = "Oh no! I'm sorry, but I didn't understand your request. Let's start over!"
-
-        print(message)
-
-        new_message = self.create_new_message(message, "error_action")
+        new_message = self.create_new_message(self.message.message, "error_action")
 
         self.emit_message(new_message)
 

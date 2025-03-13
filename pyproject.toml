@@ -3,14 +3,18 @@ name = "duplocloud"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.11"
 dependencies = [
     "flask>=3.1.0",
     "flask-rest-api>=0.17.1",
     "flask-session>=0.8.0",
     "flask-socketio>=5.5.1",
+    "langchain>=0.3.20",
+    "langchain-chroma>=0.2.2",
+    "langchain-openai>=0.3.8",
     "openai>=1.66.3",
     "orjson>=3.10.15",
     "python-dotenv>=1.0.1",
     "smolagents>=1.10.0",
+    "uuid>=1.30",
 ]

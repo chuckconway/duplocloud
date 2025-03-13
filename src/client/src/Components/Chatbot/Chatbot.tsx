@@ -10,7 +10,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-solid-svg-icons'
 import {Message, IMessage} from "../../Domain/Models/Message";
 
-const socket = io('http://127.0.0.1:5000');
+const socket = io(window.location.origin);
 
 function arrayBufferToObject(buffer: ArrayBuffer): any {
     // Step 1: Convert ArrayBuffer to string

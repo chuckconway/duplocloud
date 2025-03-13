@@ -28,6 +28,8 @@ def ask_llm(message: ChatMessage) -> str:
     from openai import OpenAI
     client = OpenAI()
 
+    print("User Prompt: " + message.message)
+
     completion = client.chat.completions.create(
         model="gpt-4o",
         messages=[
@@ -37,6 +39,8 @@ def ask_llm(message: ChatMessage) -> str:
             }
         ]
     )
+
+    print("LLM Response: " + message.message)
 
     response = completion.choices[0].message.content
     return response

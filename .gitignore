@@ -10,6 +10,7 @@ wheels/
 
 .idea
 .vscode
+chroma
 
 flask_session
 
