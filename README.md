@@ -55,6 +55,9 @@ smolagents
 ## Application Test assumptions
 Using Cursor AI, Claude Code, Windsurf, etc. is not allowed, but using Codeium or Copilot is allowed.
 
+## pitfalls of vector DB, talk about Knowledge Graph 
+
+
 ## TODO
 - Implement features
 - Add Tests
