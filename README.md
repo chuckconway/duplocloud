@@ -146,6 +146,7 @@ how od I integrate the client startup when starting Python server?
 
 In general I followed Domain Driven Design(DDD)'s paradigm, with the following folder structure:
 
+```text
 src/
 ├── client/
 ├── documents/
@@ -157,7 +158,7 @@ src/
 ├── intents/
 ├── __init__.py
 └── app.py
-
+```
 ### client
 This has all the client code, which is a very simple chatbot built with React and TypeScript using sockets for realtime communication.
 
