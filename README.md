@@ -211,3 +211,79 @@ If there are any questions, please follow up with me.
 ## Not Implemented
 
 Unfornately, I ran out of time to add more code level documentation and to implement the RestAPI and the Swagger Docs.
+
+## Test Document
+
+Take-Home Project for AI/ML Engineer Role
+---
+
+Project Overview:
+
+This project aims to assess your proficiency in Python programming, backend development, AI/ML model building, and your ability to work with Large Language Models (LLMs). You will create an AI-powered assistant that interacts with users, retrieves and processes information from specific documentation, and performs additional tasks based on your implementation choices.
+
+Project Specifications:
+
+1. Build an AI Assistant Agent
+
+   - Objective: Develop an AI assistant that can interact with users through a simple API interface (and web app).
+   - Functionality:
+     - The assistant should answer user questions by retrieving information from the DuploCloud documentation.
+     - Implement Retrieval-Augmented Generation (RAG) to enhance the assistant's responses.
+     - The assistant must return the source documents used to generate each answer.
+   - Data Source:
+     - Use the documentation files provided in the getting-started-1/application-focussed-interface folder in  DuploCloud Docs.
+
+2. Extend Functionality with Tools
+   - Objective: Enhance the assistant with the capability to answer general knowledge questions by fetching information from the internet.
+   - Requirements:
+     - Implement a tool that allows the assistant to search the internet and retrieve up-to-date information.
+     - Ensure that the assistant can distinguish between queries that require internet search and those that can be answered from the DuploCloud documentation, you can use any strategy you want, the goal is to give the best possible answers to a variety of queries.
+     - Cite sources or provide links to the information retrieved.
+
+3. Backend API Development
+
+   - Objective: Expose the assistant's functionalities through a RESTful API.
+   - Requirements:
+     - Develop API endpoints that handle user queries and return responses.
+     - Ensure the API follows best practices.
+     - Document the API using Swagger/OpenAPI or similar tools.
+
+4. Dockerization
+
+   - Objective: Containerize your application for easy deployment.
+   - Requirements:
+     - Create a Dockerfile that builds a docker image that contains the API, AI Agent, AI Tools, etc
+     - Ensure the container can be built and run with minimal effort.
+     - Provide instructions on how to build and use the Docker container.
+
+Deliverables
+
+- Source Code: Hosted in a public Git repository (e.g., GitHub, GitLab).
+- README File: Instructions on how to set up, run, and test your application.
+- API Documentation: Clear and comprehensive documentation of your API endpoints.
+
+
+Timeline
+
+- Total Time: 72 hours from the time you receive this assignment.
+
+Submission Guidelines
+
+- Git Repository: Share the link to your public repository containing all your work.
+
+
+Notes:
+
+- Freedom to Choose Tools: You may use any libraries or frameworks (e.g., LangChain, FastAPI, Flask) as long as they are publicly available.
+
+- Modular Components: Focus on making each part of the project modular. If time constraints arise, prioritize components in the order they are listed.
+
+- Assumptions: Clearly state any assumptions you make during development.
+
+- Questions: If you have any questions or need clarifications, feel free to reach out promptly.
+
+- Creativity and Improvement: This outline represents the minimum requirements. You are encouraged to exercise creativity, make your own decisions, and enhance the assistant's capabilities. The goal is to create the best possible agent that provides accurate and efficient answers while balancing time and resource constraints.
+---
+
+We look forward to seeing your innovative solutions and how you approach this project!
+![image](https://github.com/user-attachments/assets/bc218ee7-07dd-4466-bdac-9f5fae60ea8c)
