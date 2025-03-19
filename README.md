@@ -286,4 +286,3 @@ Notes:
 ---
 
 We look forward to seeing your innovative solutions and how you approach this project!
-![image](https://github.com/user-attachments/assets/bc218ee7-07dd-4466-bdac-9f5fae60ea8c)
